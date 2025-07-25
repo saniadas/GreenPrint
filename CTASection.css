@@ -1,0 +1,36 @@
+/* src/components/CTASection.css */
+.cta-section {
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #a8edea, #fed6e3);
+  text-align: center;
+  color: #1e3d59;
+  border-radius: 40px;
+  margin: 60px 20px;
+}
+
+.cta-title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.cta-subtext {
+  font-size: 1.4rem;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  padding: 14px 36px;
+  font-size: 1.1rem;
+  background-color: #1e3d59;
+  color: #fff;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.cta-button:hover {
+  background-color: #163047;
+  transform: scale(1.05);
+}

@@ -1,0 +1,44 @@
+/* src/components/StatsSection.css */
+.stats-section {
+  background: linear-gradient(to bottom, #f0fff0, #e1f5e1);
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.stats-heading {
+  font-size: 2.8rem;
+  margin-bottom: 60px;
+  color: #1f5c3f;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.stat-box {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stat-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.stat-box h3 {
+  font-size: 2.4rem;
+  color: #27ae60;
+  margin-bottom: 10px;
+}
+
+.stat-box p {
+  font-size: 1.1rem;
+  color: #555;
+}
